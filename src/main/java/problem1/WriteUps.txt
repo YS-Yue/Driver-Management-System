@@ -1,0 +1,3 @@
+I used the builder pattern for all objects with more than 3 fields, such as Driver, DriverLicence, Vehicle.
+Because if we have multiple consecutive arguments of the same type, it's easy to accidentally swap them around.
+In addition, adding more constructor parameters results in code that becomes harder to read.
